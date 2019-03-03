@@ -25,28 +25,21 @@ public class Main {
 */
         int debut = 10;
         int fin = 70;
-        int base = 6;
+        int sBase = 10;
+        int dBase = 6;
         int nbElements = fin - debut + 1; // les bornes sont comprises il faut un poste de plus dans le tableau
         int nbPostes = 4;
 
-        int[][] tableau = new int[nbElements][nbPostes];
-        String res = "";
-        int num = fin;
-        int rem;
-
-        //calcul de la taille maximum nécessaire par nombre
-        if (fin > 0) {
-            while (num > 0) {
-                rem = num % base;
-                res += rem;
-                num /= base;
-            }
-        }
-
+        String res = Integer.toString(Integer.parseInt(String.valueOf(fin), sBase),dBase);
         if (res.length() > nbPostes){
             System.out.println("nbPlages " + nbPostes + " trop petit. Modifié à : " + res.length());
             nbPostes = res.length();
         }
+        int[][] tableau = new int[nbElements][nbPostes];
+        res = "";
+
+        int num = fin;
+        int rem;
 
         int i = debut;
         int j = 0;
@@ -58,15 +51,15 @@ public class Main {
                 res = "0";
             }
             while (num > 0) {
-                rem = num % base;
+                rem = num % dBase;
                 res += rem;
-                num /= base;
+                num /= dBase;
                 tableau [j][k] = rem;
                 k--;
             }
             res = new StringBuffer(res).reverse().toString();
 
-            System.out.println(i + " base " + base + " = " + res + " " + Arrays.toString(tableau[j]).replace(", ", ""));
+            System.out.println(i + " base " + dBase + " = " + res + " " + Arrays.toString(tableau[j]).replace(", ", ""));
 //            tableau[j] = Integer.parseInt(res);
             res = "";
             i++;
