@@ -13,11 +13,10 @@ public class Base {
     }
     public static void main(String[] args)
     {
-        String number = "70"; // Number
         int sBase = 10; // Source Base Octal
         int dBase = 6; // Destination Base Decimal
-        int debut = 10;
-        int fin = 70;
+        int debut = 0;
+        int fin = 1295;
         int nbPostes = 4;
 
         System.out.println();

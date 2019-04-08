@@ -10,6 +10,13 @@ public class Main {
         int resultat = 100;
         int iteration = 0;
 
+        Dog dog = new Dog();
+        dog.bark();
+
+        List<List<String>> sentences = new ArrayList<List<String>>();
+        System.out.println(sentences);
+
+
 //        List<String> MaListe = new ArrayList<String>();
 
 //        List<Integer> list = new ArrayList<int>();
