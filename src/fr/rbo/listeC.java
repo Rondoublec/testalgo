@@ -34,6 +34,7 @@ public class listeC {
         for (int i=0; i < nMax ; i++){
             resultat = Integer.toString(Integer.parseInt(String.valueOf(i), sBase),dBase);
             resultatFormate = (String.format("%0"+nbPostes+"d", Integer.parseInt(resultat)));
+
             maListe.add(resultatFormate);
             System.out.println(maListe.get(i));
         }

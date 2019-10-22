@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3b4a9ec-9fcc-4090-bcf9-c1425aaf3dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/rbo/listeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rbo/Annuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rbo/ManipList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rbo/Mensualite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testalgo/fr/rbo/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testalgo/fr/rbo/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testalgo/fr/rbo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testalgo/fr/rbo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rbo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testalgo/fr/rbo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testalgo/fr/rbo/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rbo/listeC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rbo/listeC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +15,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -36,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-85">
               <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
@@ -45,8 +46,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/listeC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="317">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/ManipList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/Annuite.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/rbo/Mensualite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="25" column="22" selection-start-line="22" selection-end-line="28" />
+              <folding>
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -76,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/rbo/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="13" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -109,20 +157,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/fr/rbo/Score.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Base.java" />
-        <option value="$PROJECT_DIR$/src/fr/rbo/listeC.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Animal.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Toto.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Tutu.java" />
         <option value="$PROJECT_DIR$/src/fr/rbo/Dog.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/Annuite.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/listeC.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/ManipList.java" />
+        <option value="$PROJECT_DIR$/src/fr/rbo/Mensualite.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="32" />
-    <option name="width" value="1626" />
-    <option name="height" value="965" />
+    <option name="x" value="-1455" />
+    <option name="y" value="74" />
+    <option name="width" value="1329" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -130,7 +181,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,13 +188,26 @@
               <item name="testalgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="testalgo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testalgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testalgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testalgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rbo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552323813705" />
@@ -162,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ManipList">
     <configuration name="Base" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.rbo.Base" />
       <module name="testalgo" />
@@ -182,6 +245,19 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManipList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.rbo.ManipList" />
+      <module name="testalgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.rbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,8 +290,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ManipList" />
         <item itemvalue="Application.listeC" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Score" />
       </list>
     </recent_temporary>
@@ -247,17 +324,18 @@
       <workItem from="1551857491636" duration="599000" />
       <workItem from="1552318041153" duration="2490000" />
       <workItem from="1552328281452" duration="51000" />
+      <workItem from="1563177419339" duration="9878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43752000" />
+    <option name="totallyTimeSpent" value="53630000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="32" width="1626" height="965" extended-state="0" />
+    <frame x="-1455" y="74" width="1329" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26819924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33490938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,8 +344,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5019157" weight="0.37815127" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48850575" weight="0.39975992" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.37703142" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4854216" weight="0.5621951" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,8 +353,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49744573" weight="0.32934132" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5114943" side_tool="true" visible="true" weight="0.39975992" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47190294" weight="0.37935174" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5145784" side_tool="true" visible="true" weight="0.37682927" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4706823" weight="0.37919825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,6 +368,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fr/rbo/listeC.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_3.snippet">
@@ -310,41 +400,10 @@
     <entry file="file://$PROJECT_DIR$/testRBO4.txt" />
     <entry file="file://$PROJECT_DIR$/src/fr/rbo/Toto.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/rbo/Tutu.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/listeC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/rbo/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -363,6 +422,78 @@
           <folding>
             <element signature="e#74#75#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/listeC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Annuite.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/ManipList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/rbo/Mensualite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="25" column="22" selection-start-line="22" selection-end-line="28" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
           </folding>
         </state>
       </provider>
