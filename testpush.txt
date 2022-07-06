@@ -1,0 +1,18 @@
+ Le volume dans le lecteur C n'a pas de nom.
+ Le num‚ro de s‚rie du volume est 06A5-543F
+
+ R‚pertoire de C:\Workspace\test\testalgo
+
+06/07/2022  15:26    <DIR>          .
+06/07/2022  15:26    <DIR>          ..
+06/07/2022  15:26                52 .gitignore
+06/07/2022  15:26    <DIR>          .idea
+06/07/2022  15:26            66ÿ500 mesP5etBDD.zip
+06/07/2022  15:26    <DIR>          out
+06/07/2022  15:26                10 README.md
+06/07/2022  15:26    <DIR>          res
+06/07/2022  15:26    <DIR>          src
+06/07/2022  15:26               437 testalgo.iml
+06/07/2022  15:26                 0 testpush.txt
+               5 fichier(s)           66ÿ999 octets
+               6 R‚p(s)  897ÿ199ÿ366ÿ144 octets libres
